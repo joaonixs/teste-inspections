@@ -1,0 +1,12 @@
+<h1>Report Form</h1>
+<form [formGroup]="reportForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="status">Status:</label>
+    <input type="text" id="status" formControlName="status">
+  </div>
+  <div>
+    <label for="observation">Observation:</label>
+    <input type="text" id="observation" formControlName="observation">
+  </div>
+  <button type="submit">Save</button>
+</form>

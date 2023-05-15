@@ -1,0 +1,26 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Empresa</th>
+        <th>Corretor</th>
+        <th>Produto</th>
+        <th>Número</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let inspection of inspections">
+        <td>{{ inspection.Id }}</td>
+        <td>{{ inspection.companyId }}</td>
+        <td>{{ inspection.brokerCode }}</td>
+        <td>{{ inspection.productName }}</td>
+        <td>{{ inspection.InspectionNumber }}</td>
+        <td>
+          <button class="btn btn-primary">Editar</button>
+          <button class="btn btn-danger">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  

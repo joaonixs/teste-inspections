@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/scss/bootstrap';
+
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+
+
+@media screen and (max-width: 630px) {
+    body {
+      display: none;
+    }
+    .error-message {
+      display: block;
+    }
+}

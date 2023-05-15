@@ -1,0 +1,81 @@
+{
+    "inspections": [
+      {
+        "id": 1,
+        "name": "Inspection 1",
+        "date": "2022-01-01",
+        "location": "Location 1",
+        "description": "Description 1",
+        "reports": [
+          {
+            "id": 1,
+            "name": "Report 1",
+            "description": "Description 1"
+          },
+          {
+            "id": 2,
+            "name": "Report 2",
+            "description": "Description 2"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Inspection 2",
+        "date": "2022-02-01",
+        "location": "Location 2",
+        "description": "Description 2",
+        "reports": [
+          {
+            "id": 3,
+            "name": "Report 3",
+            "description": "Description 3"
+          },
+          {
+            "id": 4,
+            "name": "Report 4",
+            "description": "Description 4"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Inspection 3",
+        "date": "2022-03-01",
+        "location": "Location 3",
+        "description": "Description 3",
+        "reports": [
+          {
+            "id": 5,
+            "name": "Report 5",
+            "description": "Description 5"
+          },
+          {
+            "id": 6,
+            "name": "Report 6",
+            "description": "Description 6"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Inspection 4",
+        "date": "2022-04-01",
+        "location": "Location 4",
+        "description": "Description 4",
+        "reports": [
+          {
+            "id": 7,
+            "name": "Report 7",
+            "description": "Description 7"
+          },
+          {
+            "id": 8,
+            "name": "Report 8",
+            "description": "Description 8"
+          }
+        ]
+      }
+    ]
+  }
+  

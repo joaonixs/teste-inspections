@@ -1,0 +1,24 @@
+<h2>Inspection Form</h2>
+<form [formGroup]="inspectionForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="companyId">Company ID:</label>
+    <input type="text" formControlName="companyId" id="companyId">
+  </div>
+  <div class="form-group">
+    <label for="brokerCode">Broker Code:</label>
+    <input type="text" formControlName="brokerCode" id="brokerCode">
+  </div>
+  <div class="form-group">
+    <label for="productCode">Product Code:</label>
+    <input type="text" formControlName="productCode" id="productCode">
+  </div>
+  <div class="form-group">
+    <label for="productName">Product Name:</label>
+    <input type="text" formControlName="productName" id="productName">
+  </div>
+  <div class="form-group">
+    <label for="inspectionNumber">Inspection Number:</label>
+    <input type="number" formControlName="inspectionNumber" id="inspectionNumber">
+  </div>
+  <button type="submit">Submit</button>
+</form>

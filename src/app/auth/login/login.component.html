@@ -1,0 +1,16 @@
+
+<app-message></app-message>
+<div>
+    <h1>Login</h1>
+    <form [formGroup]="loginForm">
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input class="form-control" id="nome" placeholder="Nome" formControlName="nome">
+      </div>
+      <div class="form-group">
+        <label for="senha">Senha</label>
+        <input class="form-control" id="senha" type="password" placeholder="Senha" formControlName="senha">
+      </div>
+      <button class="btn btn-primary" (click)="login()">Entrar</button>
+    </form>
+  </div>
